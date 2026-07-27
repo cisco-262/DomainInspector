@@ -20,6 +20,51 @@
   <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
   <link rel="manifest" href="../site.webmanifest">
   <link rel="stylesheet" href="../styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://domain.opshome.run/#organization",
+        "name": "OpsHome",
+        "url": "https://domain.opshome.run/",
+        "logo": "https://domain.opshome.run/assets/images/app-logo.png",
+        "sameAs": [
+          "https://app.opshome.run/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://domain.opshome.run/#website-zh",
+        "name": "DomainName",
+        "url": "https://domain.opshome.run/zh-cn/",
+        "publisher": {
+          "@id": "https://domain.opshome.run/#organization"
+        },
+        "inLanguage": "zh-CN"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://domain.opshome.run/#app",
+        "name": "DomainName",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "iOS",
+        "url": "https://domain.opshome.run/zh-cn/",
+        "image": "https://domain.opshome.run/og.png",
+        "description": "DomainName 帮助站点所有者、开发者和小团队检查域名到期、DNS 记录、HTTPS 可用性、TLS 握手和邮件安全记录。",
+        "publisher": {
+          "@id": "https://domain.opshome.run/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
