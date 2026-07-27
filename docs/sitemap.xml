@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://domain.opshome.run/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://domain.opshome.run/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://domain.opshome.run/zh-cn/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://domain.opshome.run/"/>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://domain.opshome.run/zh-cn/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://domain.opshome.run/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://domain.opshome.run/zh-cn/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://domain.opshome.run/"/>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://domain.opshome.run/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://domain.opshome.run/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://domain.opshome.run/zh-cn/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://domain.opshome.run/privacy/"/>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://domain.opshome.run/zh-cn/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://domain.opshome.run/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://domain.opshome.run/zh-cn/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://domain.opshome.run/privacy/"/>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://domain.opshome.run/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://domain.opshome.run/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://domain.opshome.run/zh-cn/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://domain.opshome.run/terms/"/>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://domain.opshome.run/zh-cn/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://domain.opshome.run/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://domain.opshome.run/zh-cn/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://domain.opshome.run/terms/"/>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://domain.opshome.run/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://domain.opshome.run/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://domain.opshome.run/zh-cn/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://domain.opshome.run/support/"/>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://domain.opshome.run/zh-cn/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://domain.opshome.run/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://domain.opshome.run/zh-cn/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://domain.opshome.run/support/"/>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
+

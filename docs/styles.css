@@ -376,6 +376,48 @@ nav a {
   margin: 6px 0 0;
 }
 
+.noc-promo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: clamp(42px, 6vw, 72px) clamp(20px, 6vw, 92px);
+  color: #fff;
+  background:
+    radial-gradient(circle at 92% 20%, rgba(98, 180, 255, 0.26), transparent 30%),
+    linear-gradient(135deg, var(--blue-900), var(--blue-700));
+}
+
+.noc-promo div {
+  max-width: 760px;
+}
+
+.noc-promo h2 {
+  margin: 0;
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1.14;
+}
+
+.noc-promo p:last-child {
+  margin: 16px 0 0;
+  color: #d9eaff;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.promo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 18px;
+  border-radius: 8px;
+  color: var(--blue-950);
+  background: #fff;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
 .blue-band {
   color: #fff;
   background: var(--blue-950);
@@ -534,6 +576,11 @@ footer strong {
     grid-template-columns: 1fr;
   }
 
+  .noc-promo {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
   .hero-layout {
     grid-template-columns: 1fr;
   }
@@ -575,7 +622,8 @@ footer strong {
   }
 
   .primary-button,
-  .secondary-button {
+  .secondary-button,
+  .promo-link {
     width: 100%;
   }
 
