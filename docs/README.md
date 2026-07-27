@@ -1,66 +1,52 @@
-# DomainName Website
+# DomainName
 
-This folder contains the static marketing and support website for DomainName.
+DomainName is a focused domain health inspection app for personal websites, APIs, home services, parked domains, and small team assets.
 
-## Structure
+It helps you understand whether a domain is still registered, whether DNS records are configured correctly, whether HTTPS is reachable, and whether TLS and mail-related records need attention.
 
-- `index.html` - English homepage.
-- `zh-cn/index.html` - Chinese homepage.
-- `privacy/index.html` - English privacy policy.
-- `terms/index.html` - English terms of use.
-- `support/index.html` - English support page.
-- `zh-cn/privacy/index.html` - Chinese privacy policy.
-- `zh-cn/terms/index.html` - Chinese terms of use.
-- `zh-cn/support/index.html` - Chinese support page.
-- `styles.css` - Shared site styles.
-- `assets/images/` - App logo, favicons, touch icons, manifest icons, and Open Graph image.
-- `favicon.ico` - Browser favicon.
-- `site.webmanifest` - Web app icon manifest.
-- `og.png` - Open Graph preview image.
-- `IMG_0544-portrait.png` - Homepage app screenshot.
+## What DomainName Checks
 
-## Language Pages
+DomainName brings several common domain checks into one app:
 
-The English and Chinese pages are independent static pages. The language switcher uses normal links:
+- Domain registration and expiry status.
+- Remaining days before domain expiry.
+- DNS records including A, AAAA, CNAME, NS, MX, TXT, and DMARC.
+- HTTPS reachability.
+- TLS handshake status.
+- Custom service ports for domains that do not run only on port 443.
+- Mail-related records for domains used with email.
 
-- English homepage links to `./zh-cn/`.
-- Chinese homepage links to `../index.html`.
-- Policy and support pages link to their matching language versions.
+## Why It Helps
 
-Do not reintroduce JavaScript text replacement for language switching. Keep each language page as its own HTML file so page titles, metadata, content, and links can be maintained independently.
+DomainName is designed for people who manage multiple internet-facing assets but do not want to rely on scattered spreadsheets, manual DNS lookups, or separate command-line checks.
 
-## Support Email
+The app organizes results by domain usage, so website domains, API domains, mail domains, home server domains, and parked domains can be reviewed with the checks that make sense for each case.
 
-The support email shown on the site is:
+## Reports
+
+Each domain can generate a focused health report. Reports show whether checks are normal, need attention, disabled, or not configured.
+
+This makes it easier to identify practical issues such as:
+
+- Domains approaching expiry.
+- Missing or unexpected DNS records.
+- HTTPS services that are unreachable.
+- TLS handshake problems.
+- Mail domains without expected security records.
+
+## Backup And Export
+
+DomainName supports local data backup and report export:
+
+- JSON backup for complete migration and restore.
+- PDF report export for readable domain analysis records.
+
+## Privacy
+
+DomainName is designed with a local-first approach. Domain lists and reports are stored in local app data, and backup files are created only when you choose to export them.
+
+## Support
+
+For support, contact:
 
 `support@opshome.run`
-
-When changing the support address, update all `mailto:` links and visible email text across both English and Chinese pages.
-
-## Assets
-
-Primary app and browser assets are stored in `assets/images/`:
-
-- `app-logo.png`
-- `apple-touch-icon.png`
-- `favicon-16.png`
-- `favicon-32.png`
-- `icon-192.png`
-- `icon-512.png`
-- `og.png`
-
-The root `favicon.ico`, `site.webmanifest`, and homepage images should stay in sync with these assets when the app branding changes.
-
-## Local Preview
-
-This is a static website. You can preview it by opening `index.html` in a browser, or by serving the folder with any static file server.
-
-Example:
-
-```bash
-python -m http.server 8080
-```
-
-Then open:
-
-`http://localhost:8080/`
