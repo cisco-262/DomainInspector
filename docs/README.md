@@ -2,6 +2,8 @@
 
 DomainName is a focused domain health inspection app for personal websites, APIs, home services, parked domains, and small team assets.
 
+App Store: https://apps.apple.com/us/app/domain-health-inspector/id6792293532
+
 It helps you understand whether a domain is still registered, whether DNS records are configured correctly, whether HTTPS is reachable, and whether TLS and mail-related records need attention.
 
 ## What DomainName Checks
