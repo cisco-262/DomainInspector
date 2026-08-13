@@ -1,6 +1,6 @@
 {
-  "name": "DomainName",
-  "short_name": "DomainName",
+  "name": "Domain Health Inspector",
+  "short_name": "Domain Health Inspector",
   "icons": [
     {
       "src": "./assets/images/icon-192.png",
