@@ -20,7 +20,7 @@
 <link href="../assets/images/favicon-16.png" rel="icon" sizes="16x16" type="image/png"/>
 <link href="../assets/images/apple-touch-icon.png" rel="apple-touch-icon"/>
 <link href="../site.webmanifest" rel="manifest"/>
-<link as="image" fetchpriority="high" href="../assets/images/domain-home-720.webp" imagesizes="(max-width: 432px) 74vw, (max-width: 900px) 320px, 390px" imagesrcset="../assets/images/domain-home-480.webp 480w, ../assets/images/domain-home-720.webp 720w, ../assets/images/domain-home-960.webp 960w, ../assets/images/domain-home-1200.webp 1200w" rel="preload" type="image/webp"/><link href="../styles.css?v=20260813-pagespeed" rel="stylesheet"/>
+<link as="image" fetchpriority="high" href="../assets/images/domain-home-720.webp" imagesizes="(max-width: 432px) 72vw, (max-width: 900px) 300px, 300px" imagesrcset="../assets/images/domain-home-480.webp 480w, ../assets/images/domain-home-720.webp 720w, ../assets/images/domain-home-960.webp 960w, ../assets/images/domain-home-1200.webp 1200w" rel="preload" type="image/webp"/><link href="../styles.css?v=20260824-v2-optimization" rel="stylesheet"/>
 <script type="application/ld+json">
   {
   "@context": "https://schema.org",
@@ -80,11 +80,12 @@
 <div class="header-actions">
 <nav aria-label="主导航">
 <a href="#features">功能</a>
+<a href="#checks">检查</a>
 <a href="#workflow">流程</a>
 <a href="/zh-cn/privacy/">隐私</a>
 <a href="/zh-cn/support/">支持</a>
 <a href="https://app.opshome.run" rel="noopener" target="_blank">OpsHome NOC</a>
-<a class="nav-action" href="https://apps.apple.com/us/app/domain-health-inspector/id6792293532" rel="noopener" target="_blank">获取应用</a>
+<a class="nav-action" href="https://apps.apple.com/us/app/domain-health-inspector/id6792293532" rel="noopener" target="_blank">下载应用</a>
 </nav>
 <div aria-label="Language" class="language-menu">
 <a class="language-option" href="/" lang="en">EN</a>
@@ -97,101 +98,107 @@
 <div class="hero-layout">
 <div class="hero-content">
 <p class="eyebrow">域名健康检查工具</p>
-<h1>Domain Health Inspector — 让域名、DNS 和 HTTPS 状态一眼可见</h1>
-<p class="hero-copy">Domain Health Inspector 将域名到期、DNS 记录、HTTPS 可达性、TLS 握手和邮件安全检查集中到一个专注的应用中，适合个人站点、API、家庭服务器和小团队资产管理。</p>
+<h1>在一个专注工作区理解域名、DNS、TLS 和 HTTPS 健康状态。</h1>
+<p class="hero-copy">将注册信息、DNS 记录、HTTPS 可达性、TLS 证书和邮件安全检查集中到一个隐私优先的应用中，适合个人站点、API、家庭服务器和小团队资产管理。</p>
 <div class="hero-actions" id="download">
 <a class="primary-button" href="https://apps.apple.com/us/app/domain-health-inspector/id6792293532" rel="noopener" target="_blank">在 App Store 下载</a>
 <a class="secondary-button" href="mailto:support@opshome.run">联系支持</a>
 </div>
 </div>
 <figure aria-label="Domain Health Inspector 应用首页" class="hero-phone">
-<img alt="Domain Health Inspector 应用首页" decoding="async" fetchpriority="high" height="2796" loading="eager" sizes="(max-width: 432px) 74vw, (max-width: 900px) 320px, 390px" src="../assets/images/domain-home-720.webp" srcset="../assets/images/domain-home-480.webp 480w, ../assets/images/domain-home-720.webp 720w, ../assets/images/domain-home-960.webp 960w, ../assets/images/domain-home-1200.webp 1200w" width="1419"/>
+<img alt="Domain Health Inspector 应用首页" decoding="async" fetchpriority="high" height="2796" loading="eager" sizes="(max-width: 432px) 72vw, (max-width: 900px) 300px, 300px" src="../assets/images/domain-home-720.webp" srcset="../assets/images/domain-home-480.webp 480w, ../assets/images/domain-home-720.webp 720w, ../assets/images/domain-home-960.webp 960w, ../assets/images/domain-home-1200.webp 1200w" width="1419"/>
+<figcaption class="hero-capabilities" aria-label="检查能力">
+<span>DNS</span>
+<span>TLS</span>
+<span>HTTPS</span>
+<span>MAIL</span>
+</figcaption>
 </figure>
 </div>
 </section>
-<section aria-label="产品亮点" class="metrics">
+<section aria-label="基础设施检查" class="metrics" id="checks">
 <div>
-<strong>443+</strong>
-<span>支持自定义源站端口</span>
+<strong>本地优先</strong>
+<span>域名资产清单保留在设备上。</span>
 </div>
 <div>
 <strong>DNS</strong>
-<span>A / AAAA / CNAME / NS / MX 按记录类型展示</span>
+<span>按记录类型分析配置和结果。</span>
 </div>
 <div>
-<strong>RDAP</strong>
-<span>注册信息和剩余天数检查</span>
+<strong>TLS</strong>
+<span>检查证书和安全细节。</span>
 </div>
 <div>
-<strong>本地</strong>
-<span>本地优先的数据存储方式</span>
+<strong>443+</strong>
+<span>支持非标准端口上的 HTTPS 服务。</span>
 </div>
 </section>
 <section class="section" id="features">
 <div class="section-head">
 <p class="eyebrow">功能</p>
-<h2>围绕真实域名用途组织检查项</h2>
-<p>Domain Health Inspector 不只是给域名打分，而是清晰标识检查项是否正常、需要关注、已禁用或尚未配置。</p>
+<h2>面向真实域名用途的基础设施健康分类。</h2>
+<p>Domain Health Inspector 将域名监控、DNS 检查、HTTPS 健康检查、TLS 证书监控和邮件安全分析组织成清晰的运维类别。</p>
 </div>
 <div class="feature-grid">
 <article>
 <span class="icon">01</span>
-<h3>域名到期提醒</h3>
-<p>报告卡片展示剩余天数，并根据紧急程度区分不同状态。</p>
+<h3>域名情报</h3>
+<p>查看注册信息、到期状态、剩余天数，以及每个域名的关注信号。</p>
 </article>
 <article>
 <span class="icon">02</span>
-<h3>DNS 记录检查</h3>
-<p>A、AAAA、CNAME、NS、MX、TXT 和 DMARC 等记录按类型分组，结果更容易阅读。</p>
+<h3>DNS 可见性</h3>
+<p>A、AAAA、CNAME、NS、MX、TXT 和 DMARC 等记录按类型分组，配置更容易阅读。</p>
 </article>
 <article>
 <span class="icon">03</span>
 <h3>HTTPS 和 TLS</h3>
-<p>检查 HTTPS 响应和 TLS 握手，也支持不运行在 443 端口的服务。</p>
+<p>验证 HTTPS 响应、TLS 握手和证书详情，也支持 443 端口之外的服务。</p>
 </article>
 <article>
 <span class="icon">04</span>
-<h3>备份和导出</h3>
+<h3>报告与可迁移性</h3>
 <p>使用 JSON 做完整备份、迁移和恢复，需要可读副本时可以导出 PDF 报告。</p>
 </article>
+</div>
+</section>
+<section class="section blue-band" id="privacy">
+<div class="section-head">
+<p class="eyebrow">隐私</p>
+<h2>面向域名资产清单的隐私优先检查。</h2>
+<p>你的域名资产清单和报告保存在本地应用数据中。不需要云账号，备份文件只会在你主动导出时生成。</p>
+</div>
+<div class="privacy-grid">
+<div><strong>本地资产清单</strong><span>域名列表和检查报告存储在本地应用数据中。</span></div>
+<div><strong>备份可控</strong><span>JSON 用于完整迁移和恢复，PDF 报告只会在主动导出时生成。</span></div>
+<div><strong>检查可禁用</strong><span>单个域名可以暂停检查，并在报告中显示为中性状态。</span></div>
 </div>
 </section>
 <section class="split-section" id="workflow">
 <div>
 <p class="eyebrow">流程</p>
-<h2>从添加域名到阅读报告，只保留必要步骤</h2>
-<p>选择用途后，Domain Health Inspector 会为网站、API、邮件域名、家庭服务、停放域名等常见场景启用合适的检查项。</p>
+<h2>流程简单，结果清晰。</h2>
+<p>添加域名或 URL，运行检查，然后按注册信息、DNS、HTTP、TLS 和邮件类别查看结果。</p>
 </div>
 <ol class="steps">
 <li><span>添加域名或 URL</span><p>直接粘贴域名、URL 或明确的服务端口。</p></li>
-<li><span>选择用途配置</span><p>通过分层菜单选择网站、API、邮件或家庭服务等场景。</p></li>
+<li><span>运行检查</span><p>检查所选资产的注册信息、DNS、HTTPS、TLS 和邮件安全信号。</p></li>
 <li><span>查看健康报告</span><p>按注册信息、DNS、HTTP、TLS 和邮件分类阅读结果。</p></li>
 <li><span>导出和备份</span><p>使用 JSON 保存完整数据，并导出易读的 PDF 报告。</p></li>
 </ol>
 </section>
 <section aria-label="OpsHome NOC" class="noc-promo">
 <div>
-<p class="eyebrow">关联产品</p>
-<h2>需要完整的基础设施监控？</h2>
-<p>OpsHome NOC 是主监控应用，面向公网端点、私有探针、云资产、Docker 探针和发现资产的统一观测与监控。</p>
+<p class="eyebrow">OPSHOME 基础设施工具集</p>
+<h2>OpsHome Infrastructure Toolkit 的一部分。</h2>
+<p>需要更广的基础设施可见性？通过 OpsHome NOC 查看公网服务、私有基础设施、Docker、Proxmox 和网络监控。</p>
 </div>
-<a class="promo-link" href="https://app.opshome.run" rel="noopener" target="_blank">打开 OpsHome NOC</a>
-</section>
-<section class="section blue-band" id="privacy">
-<div class="section-head">
-<p class="eyebrow">隐私</p>
-<h2>面向个人资产管理的本地优先设计</h2>
-<p>域名列表和报告保存在本地应用数据中。备份文件只有在你主动导出时才会生成，敏感资产清单不需要放进公开表格或第三方文档。</p>
-</div>
-<div class="privacy-grid">
-<div><strong>文件保护</strong><span>本地 JSON 存储使用 iOS 文件保护策略。</span></div>
-<div><strong>备份可控</strong><span>JSON 用于完整迁移和恢复，PDF 报告只会在主动导出时生成。</span></div>
-<div><strong>检查可禁用</strong><span>单个域名可以暂停检查，并在报告中显示为中性状态。</span></div>
-</div>
+<a class="promo-link" href="https://app.opshome.run" rel="noopener" target="_blank">探索 OpsHome NOC</a>
 </section>
 </main>
 <footer>
-<div class="footer-brandline"><img alt="Domain Health Inspector logo" decoding="async" height="44" loading="lazy" src="../assets/images/app-logo-96.webp" width="44"/><div><strong>Domain Health Inspector</strong><span>域名、DNS、SSL 和邮件检查</span></div></div>
+<div class="footer-brandline"><img alt="Domain Health Inspector logo" decoding="async" height="44" loading="lazy" src="../assets/images/app-logo-96.webp" width="44"/><div><strong>Domain Health Inspector</strong><span>隐私优先的域名、DNS 和安全诊断。</span></div></div>
 <nav aria-label="页脚" class="footer-links">
 <a href="/zh-cn/terms/">用户协议</a>
 <a href="/zh-cn/privacy/">隐私条款</a>
