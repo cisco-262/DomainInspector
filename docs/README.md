@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="/docs/assets/images/app-logo.png" alt="Domain Checker: DNS & SSL Logo" width="120">
+<img src="/docs/assets/images/domain-inspector-hero.png" alt="Domain Checker: DNS & SSL Logo" width="120">
 
 # Domain Checker: DNS & SSL
 
