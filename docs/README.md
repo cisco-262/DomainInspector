@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="/docs/assets/images/app-logo.png" alt="Domain Health Inspector Logo" width="120">
+<img src="/docs/assets/images/app-logo.png" alt="Domain Checker: DNS & SSL Logo" width="120">
 
-# Domain Health Inspector
+# Domain Checker: DNS & SSL
 
 **See Domain, DNS, HTTPS, and Mail Health at a Glance**  
 **让域名、DNS、HTTPS 和邮件安全状态一眼可见**
@@ -22,12 +22,12 @@ A focused, local-first iPhone app for inspecting domain registration, expiry, DN
 <br>
 
 <a href="https://apps.apple.com/us/app/domain-health-inspector/id6792293532">
-  <img src="https://img.shields.io/badge/Download_on_the-App_Store-000000?logo=apple&logoColor=white&style=for-the-badge" alt="Download Domain Health Inspector on the App Store">
+  <img src="https://img.shields.io/badge/Download_on_the-App_Store-000000?logo=apple&logoColor=white&style=for-the-badge" alt="Download Domain Checker: DNS & SSL on the App Store">
 </a>
 
 <br><br>
 
-<img src="/docs/IMG_0544-portrait.png" alt="Domain Health Inspector iPhone app showing a domain health report" width="300">
+<img src="/docs/IMG_0544-portrait.png" alt="Domain Checker: DNS & SSL iPhone app showing a domain health report" width="300">
 
 <br>
 
@@ -41,7 +41,7 @@ A focused, local-first iPhone app for inspecting domain registration, expiry, DN
 
 ### Overview
 
-**Domain Health Inspector** brings common domain, DNS, HTTPS, TLS, and mail-related checks into one focused iPhone app.
+**Domain Checker: DNS & SSL** brings common domain, DNS, HTTPS, TLS, and mail-related checks into one focused iPhone app.
 
 It is designed for people who manage:
 
@@ -73,7 +73,7 @@ Instead of relying on separate lookup websites, command-line tools, and spreadsh
 
 Different domains have different purposes. A parked domain does not need the same checks as an API, and a mail domain needs different records from a home server.
 
-Domain Health Inspector lets you choose a usage profile so that the report can focus on checks that make sense for the selected scenario.
+Domain Checker: DNS & SSL lets you choose a usage profile so that the report can focus on checks that make sense for the selected scenario.
 
 Typical profiles include:
 
@@ -122,7 +122,7 @@ Supported and commonly displayed records can include:
 
 The report can help identify missing, unexpected, or incomplete public DNS configuration.
 
-Domain Health Inspector reads public DNS data. It does not request access to your DNS provider account.
+Domain Checker: DNS & SSL reads public DNS data. It does not request access to your DNS provider account.
 
 ### HTTP and HTTPS Analysis
 
@@ -171,7 +171,7 @@ Mail results depend on the records that are publicly published in DNS. A record 
 
 ### Health Report States
 
-Domain Health Inspector does not reduce every domain to a single generic score.
+Domain Checker: DNS & SSL does not reduce every domain to a single generic score.
 
 Checks are organized into practical states:
 
@@ -186,7 +186,7 @@ Reports are grouped into registration, DNS, HTTP, TLS, and mail categories.
 
 ### Typical Issues the App Can Surface
 
-Domain Health Inspector can help identify:
+Domain Checker: DNS & SSL can help identify:
 
 - Domains approaching expiry
 - Missing or unexpected DNS records
@@ -219,7 +219,7 @@ The app presents public inspection results. It does not automatically modify DNS
 
 ### Backup and Export
 
-Domain Health Inspector provides two different export formats:
+Domain Checker: DNS & SSL provides two different export formats:
 
 #### JSON Backup
 
@@ -243,7 +243,7 @@ Backup and report files are created only when you choose to export them and are 
 
 ### Local-First Privacy
 
-Domain Health Inspector is designed as a local-first domain asset inspection app.
+Domain Checker: DNS & SSL is designed as a local-first domain asset inspection app.
 
 The app may store the following information locally on the device:
 
@@ -259,10 +259,10 @@ The app may store the following information locally on the device:
 
 When an inspection is run, the app connects to the public DNS, RDAP, HTTP, HTTPS, TLS, and mail-related endpoints required to create the report.
 
-Domain Health Inspector does not require:
+Domain Checker: DNS & SSL does not require:
 
 - Account registration for local use
-- Uploading the domain portfolio to a Domain Health Inspector cloud account
+- Uploading the domain portfolio to a Domain Checker: DNS & SSL cloud account
 - Registrar passwords
 - DNS provider credentials
 - Certificate private keys
@@ -274,9 +274,9 @@ Local JSON storage uses iOS file-protection policies. Exported JSON and PDF file
 
 Read the complete [Privacy Policy](https://domain.opshome.run/privacy/).
 
-### What Domain Health Inspector Is Not
+### What Domain Checker: DNS & SSL Is Not
 
-Domain Health Inspector is not:
+Domain Checker: DNS & SSL is not:
 
 - A domain registrar
 - A DNS hosting provider
@@ -292,7 +292,7 @@ The app inspects public information and presents it in a structured report. Conf
 
 ### Need Continuous Infrastructure Monitoring?
 
-Domain Health Inspector is designed for focused domain analysis and report generation.
+Domain Checker: DNS & SSL is designed for focused domain analysis and report generation.
 
 For continuous monitoring, alerts, uptime history, public endpoints, private Docker Probe checks, Synology NAS, Proxmox VE, Linux hosts, Docker containers, and private infrastructure assets, use **OpsHome NOC**.
 
@@ -300,15 +300,15 @@ For continuous monitoring, alerts, uptime history, public endpoints, private Doc
 
 ### App Availability
 
-Domain Health Inspector is available on the App Store as a free download with optional in-app purchases. It is designed for iPhone and requires iOS 17 or later.
+Domain Checker: DNS & SSL is available on the App Store as a free download with optional in-app purchases. It is designed for iPhone and requires iOS 17 or later.
 
-[Download Domain Health Inspector on the App Store](https://apps.apple.com/us/app/domain-health-inspector/id6792293532)
+[Download Domain Checker: DNS & SSL on the App Store](https://apps.apple.com/us/app/domain-health-inspector/id6792293532)
 
 ### Support
 
 For product support:
 
-- Visit the [Domain Health Inspector Support page](https://domain.opshome.run/support/)
+- Visit the [Domain Checker: DNS & SSL Support page](https://domain.opshome.run/support/)
 - Include the app version
 - Include the iOS version
 - Include the device model
@@ -330,7 +330,7 @@ Common troubleshooting notes:
 
 ### 产品介绍
 
-**Domain Health Inspector** 将域名注册与到期、DNS、HTTP/HTTPS、TLS 证书和邮件安全检查集中到一款专注的 iPhone 应用中。
+**Domain Checker: DNS & SSL** 将域名注册与到期、DNS、HTTP/HTTPS、TLS 证书和邮件安全检查集中到一款专注的 iPhone 应用中。
 
 它适合管理以下资产的用户：
 
@@ -362,7 +362,7 @@ Common troubleshooting notes:
 
 不同域名有不同用途。停放域名不需要和 API 完全相同的检查，邮件域名也需要不同于家庭服务器的记录。
 
-Domain Health Inspector 允许选择用途配置，使报告集中显示适合当前场景的检查项目。
+Domain Checker: DNS & SSL 允许选择用途配置，使报告集中显示适合当前场景的检查项目。
 
 常见用途包括：
 
@@ -411,7 +411,7 @@ DNS 结果按记录类型分组，复杂配置也能保持可读。
 
 报告可以帮助发现缺失、异常或配置不完整的公开 DNS 记录。
 
-Domain Health Inspector 读取公开 DNS 数据，不会要求登录 DNS 服务商账号。
+Domain Checker: DNS & SSL 读取公开 DNS 数据，不会要求登录 DNS 服务商账号。
 
 ### HTTP 和 HTTPS 分析
 
@@ -460,7 +460,7 @@ TLS 检查可以帮助查看：
 
 ### 健康报告状态
 
-Domain Health Inspector 不会把所有检查简单压缩成一个通用分数。
+Domain Checker: DNS & SSL 不会把所有检查简单压缩成一个通用分数。
 
 检查结果会按照实际状态组织：
 
@@ -475,7 +475,7 @@ Domain Health Inspector 不会把所有检查简单压缩成一个通用分数�
 
 ### 可以发现的常见问题
 
-Domain Health Inspector 可以帮助识别：
+Domain Checker: DNS & SSL 可以帮助识别：
 
 - 域名即将到期
 - DNS 记录缺失或异常
@@ -508,7 +508,7 @@ Domain Health Inspector 可以帮助识别：
 
 ### 备份和导出
 
-Domain Health Inspector 提供两种不同用途的导出格式。
+Domain Checker: DNS & SSL 提供两种不同用途的导出格式。
 
 #### JSON 备份
 
@@ -532,7 +532,7 @@ PDF 导出适合：
 
 ### 本地优先隐私设计
 
-Domain Health Inspector 是一款本地优先的域名资产检查应用。
+Domain Checker: DNS & SSL 是一款本地优先的域名资产检查应用。
 
 应用可能在设备本地保存：
 
@@ -548,10 +548,10 @@ Domain Health Inspector 是一款本地优先的域名资产检查应用。
 
 执行检查时，应用会连接生成报告所需的公开 DNS、RDAP、HTTP、HTTPS、TLS 和邮件相关端点。
 
-Domain Health Inspector 不要求：
+Domain Checker: DNS & SSL 不要求：
 
 - 为本地使用注册账号
-- 将域名资产列表上传到 Domain Health Inspector 云端账号
+- 将域名资产列表上传到 Domain Checker: DNS & SSL 云端账号
 - 注册商密码
 - DNS 服务商凭据
 - 证书私钥
@@ -563,9 +563,9 @@ Domain Health Inspector 不要求：
 
 查看完整的[隐私政策](https://domain.opshome.run/privacy/)。
 
-### Domain Health Inspector 不是什么
+### Domain Checker: DNS & SSL 不是什么
 
-Domain Health Inspector 不是：
+Domain Checker: DNS & SSL 不是：
 
 - 域名注册商
 - DNS 托管服务商
@@ -581,7 +581,7 @@ Domain Health Inspector 不是：
 
 ### 需要持续基础设施监控？
 
-Domain Health Inspector 用于专注的域名分析和报告生成。
+Domain Checker: DNS & SSL 用于专注的域名分析和报告生成。
 
 如需持续监控、告警、可用率历史、公网端点、Docker Probe 私有检查、Synology NAS、Proxmox VE、Linux 主机、Docker 容器和私有基础设施资产，请使用 **OpsHome NOC**。
 
@@ -589,15 +589,15 @@ Domain Health Inspector 用于专注的域名分析和报告生成。
 
 ### App Store
 
-Domain Health Inspector 可在 App Store 免费下载，并提供可选的 App 内购买。应用针对 iPhone 设计，需要 iOS 17 或更高版本。
+Domain Checker: DNS & SSL 可在 App Store 免费下载，并提供可选的 App 内购买。应用针对 iPhone 设计，需要 iOS 17 或更高版本。
 
-[在 App Store 下载 Domain Health Inspector](https://apps.apple.com/us/app/domain-health-inspector/id6792293532)
+[在 App Store 下载 Domain Checker: DNS & SSL](https://apps.apple.com/us/app/domain-health-inspector/id6792293532)
 
 ### 支持
 
 需要产品支持时：
 
-- 访问 [Domain Health Inspector 支持页面](https://domain.opshome.run/support/)
+- 访问 [Domain Checker: DNS & SSL 支持页面](https://domain.opshome.run/support/)
 - 提供应用版本
 - 提供 iOS 版本
 - 提供设备型号
@@ -613,8 +613,7 @@ Domain Health Inspector 可在 App Store 免费下载，并提供可选的 App �
 - 邮件安全检查依赖公开的 MX、TXT、SPF、DKIM 和 DMARC 记录。
 - 清除本地数据前，如需保留副本，请先导出 JSON 备份或 PDF 报告。
 
-
-
+---
 
 ---
 
