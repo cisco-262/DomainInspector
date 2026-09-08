@@ -27,7 +27,7 @@ A focused, local-first iPhone app for inspecting domain registration, expiry, DN
 
 <br><br>
 
-<img src="/docs/assets/images/domain-inspector-hero.png" alt="Domain Checker: DNS & SSL iPhone app showing a domain health report" width="300">
+<img src="/docs/assets/images/domain-inspector-report.png" alt="Domain Checker: DNS & SSL iPhone app showing a domain health report" width="300">
 
 <br>
 
