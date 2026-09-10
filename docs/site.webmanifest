@@ -1,6 +1,6 @@
 {
-  "name": "Domain Health Inspector",
-  "short_name": "Domain Health Inspector",
+  "name": "Domain Checker: DNS & SSL",
+  "short_name": "Domain Checker",
   "icons": [
     {
       "src": "./assets/images/icon-192.png",
