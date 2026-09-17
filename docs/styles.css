@@ -230,6 +230,29 @@ nav a {
   margin-top: 34px;
 }
 
+.hero-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-top: 20px;
+  color: #d9eaff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.hero-trust span {
+  position: relative;
+  padding-left: 14px;
+}
+
+.hero-trust span::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #8fd7bc;
+  font-weight: 900;
+}
+
 .primary-button,
 .secondary-button {
   display: inline-flex;
@@ -746,4 +769,18 @@ footer strong {
 @media (max-width: 800px) {
   .showcase-grid { grid-template-columns: 1fr; }
   .showcase-card { grid-template-columns: 1fr; }
+}
+
+
+.primary-button, .secondary-button, .nav-action, .promo-link {
+  transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+}
+
+.primary-button:hover, .secondary-button:hover, .nav-action:hover, .promo-link:hover {
+  transform: translateY(-1px);
+}
+
+.primary-button:focus-visible, .secondary-button:focus-visible, .nav-action:focus-visible, .promo-link:focus-visible, nav a:focus-visible {
+  outline: 3px solid rgba(98, 180, 255, 0.55);
+  outline-offset: 3px;
 }
