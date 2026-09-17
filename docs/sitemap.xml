@@ -3,12 +3,14 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://domain.opshome.run/</loc>
+    <lastmod>2026-09-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://domain.opshome.run/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://domain.opshome.run/zh-cn/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://domain.opshome.run/"/>
   </url>
   <url>
     <loc>https://domain.opshome.run/zh-cn/</loc>
+    <lastmod>2026-09-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://domain.opshome.run/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://domain.opshome.run/zh-cn/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://domain.opshome.run/"/>
