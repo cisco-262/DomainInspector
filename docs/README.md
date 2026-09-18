@@ -94,17 +94,20 @@ Domain Checker: DNS & SSL reports public inspection results. It does not automat
 
 ### Pricing & plans
 
-Core diagnostics remain available across all tiers. **Plus** and **Pro** are non-consumable in-app purchases: one payment, permanent unlock, with no monthly or annual subscription.
+Core diagnostics remain available across all tiers. **Plus**, **Pro**, and **Unlimited** are non-consumable in-app purchases: one payment, permanent unlock, with no monthly or annual subscription.
 
-| Plan | U.S. price | Managed domains | Saved report history | Best for |
+| Plan | U.S. price | Domain allowance | Saved report history | Best for |
 | --- | ---: | ---: | ---: | --- |
-| **Free** | $0 | 10 | 3 | Personal sites and smaller domain lists |
-| **Plus** | $3.99 one-time | 50 | 20 | Multi-site owners and independent developers |
-| **Pro** | $8.99 one-time | 100 | 100 | Larger portfolios and professional workflows |
+| **Free** | $0 | 10 included | 3 | Personal sites and smaller domain lists |
+| **Plus** | $3.99 one-time | +50 domains | 20 | Multi-site owners and independent developers |
+| **Pro** | $8.99 one-time | +100 domains | 100 | Larger portfolios and professional workflows |
+| **Unlimited** | $19.99 one-time | Unlimited saved domains | 100 | Heavy users and large domain portfolios |
 
-All tiers include core DNS, HTTPS/TLS, and domain diagnostics. Free includes basic bulk import/export; Plus and Pro unlock the full bulk workflow. PDF report export and local-first storage are available across the plans shown on the current website.
+Domain allowances are cumulative for the fixed-quantity purchases: **Free 10 + Plus 50 + Pro 100 = up to 160 saved domains** when both Plus and Pro are owned. **Unlimited** removes the saved-domain count limit instead of adding another numeric allowance.
 
-> Prices above reflect the U.S. App Store presentation on the current product website. Local App Store pricing may vary by country or region.
+All tiers include core DNS, HTTPS/TLS, and domain diagnostics. Free includes basic bulk import/export; paid tiers unlock the full bulk workflow. PDF report export and local-first storage remain available across the plans shown on the current website.
+
+> Prices above reflect the U.S. App Store presentation configured for the current product. Local App Store pricing may vary by country or region.
 
 ### Local-first privacy
 
@@ -116,34 +119,6 @@ The app does **not** require registrar passwords, DNS-provider credentials, cert
 
 See the full [Privacy Policy](https://domain.opshome.run/privacy/).
 
-### Website structure
-
-The product website now uses a unified OpsHome visual system for navigation and footer presentation while keeping Domain Checker as its own product site.
-
-**Top navigation**
-
-- Features
-- Checks
-- Workflow
-- Pricing
-- Privacy
-- Support
-- Language switcher
-- **Download Free** CTA linked directly to the Domain Checker App Store page
-
-The header uses the current OpsHome navigation style: medium-weight typography, softer dark-gray navigation text, lightweight hover pills, consistent responsive spacing, and a single product-focused App Store CTA.
-
-**Footer**
-
-The footer uses the shared OpsHome product-family layout:
-
-- **Products** — OpsHome NOC, FortiGate NOC Monitor, Domain Checker: DNS & SSL, SSL Certificate Monitor, WiFi Health Check
-- **Resources** — Docs, Release Log, Security
-- **Platform & Support** — OpsHome Console, Status Pages, Domain Support
-- Product logos use the unified rounded, transparent presentation
-- Terms and Privacy are separated into the bottom legal bar
-
-The site includes English and Simplified Chinese pages with corresponding Privacy, Support, and Terms pages.
 
 ### Related OpsHome products
 
@@ -222,17 +197,20 @@ For product support:
 
 ### 定价与方案
 
-核心域名诊断能力在各档位均可使用。**Plus** 与 **Pro** 为非消耗型应用内购买：一次付费，永久解锁，不收月费或年费。
+核心域名诊断能力在各档位均可使用。**Plus**、**Pro** 与 **Unlimited** 均为非消耗型应用内购买：一次付费，永久解锁，不收月费或年费。
 
 | 方案 | 美国区价格 | 域名额度 | 报告历史 | 适合 |
 | --- | ---: | ---: | ---: | --- |
-| **Free** | $0 | 10 | 3 | 个人站点和较小规模域名清单 |
-| **Plus** | $3.99 一次性 | 50 | 20 | 多站点用户和独立开发者 |
-| **Pro** | $8.99 一次性 | 100 | 100 | 更大的域名资产组合和专业工作流 |
+| **Free** | $0 | 含 10 个 | 3 | 个人站点和较小规模域名清单 |
+| **Plus** | $3.99 一次性 | +50 个 | 20 | 多站点用户和独立开发者 |
+| **Pro** | $8.99 一次性 | +100 个 | 100 | 更大的域名资产组合和专业工作流 |
+| **Unlimited** | $19.99 一次性 | 保存域名数量不限 | 100 | 重度用户和大型域名资产组合 |
 
-各档位均包含核心 DNS、HTTPS/TLS 与域名诊断。Free 提供基础批量导入/导出，Plus 与 Pro 提供完整批量工作流。当前网站展示的各档位均支持 PDF 报告导出和本地优先存储。
+固定数量档位采用叠加逻辑：同时拥有 Plus 与 Pro 时，**Free 10 + Plus 50 + Pro 100 = 最多 160 个保存域名**。**Unlimited** 则直接取消保存域名数量限制，不再继续叠加一个数值额度。
 
-> 以上价格对应当前产品网站展示的美国区 App Store 价格，不同国家或地区的实际售价可能不同。
+各档位均包含核心 DNS、HTTPS/TLS 与域名诊断。Free 提供基础批量导入/导出，付费档位提供完整批量工作流。PDF 报告导出和本地优先存储继续覆盖当前产品方案。
+
+> 以上价格对应当前产品配置的美国区 App Store 价格，不同国家或地区的实际售价可能不同。
 
 ### 本地优先隐私设计
 
